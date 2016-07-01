@@ -15,7 +15,7 @@ import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
  * 作者：杨光福 on 2016/6/1 14:27
  * 微信：yangguangfu520
  * QQ号：541433511
- * 作用：主界面
+ * 作用：主界面20160702
  */
 public class MainActivity extends SlidingFragmentActivity{
 
