@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:atguigu="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp">
+
+    <CheckBox
+        android:clickable="false"
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/checkbox_selector" />
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/news_pic_default" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="三星（SAMSUNG）S22B310B 21.5英寸宽屏LED背光液晶显示器"
+            android:textColor="#88000000"
+            android:textSize="13sp" />
+
+        <TextView
+
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="4000￥"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <com.atguigu.beijingnews.view.NumberAddSubView
+            android:id="@+id/number_add_sub_view"
+            android:layout_width="wrap_content"
+            atguigu:value="1"
+            atguigu:minValue="1"
+            atguigu:maxValue="9"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
